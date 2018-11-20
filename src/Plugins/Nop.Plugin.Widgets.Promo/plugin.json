@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Promo",
+  "SystemName": "Widgets.Promo",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.10" ],
+  "Author": "nopCommerce team",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.Promo.dll",
+  "Description": "This plugin allows you to show promo text on the product page"
+}

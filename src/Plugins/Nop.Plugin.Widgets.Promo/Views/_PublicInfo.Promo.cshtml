@@ -1,0 +1,10 @@
+﻿@model Nop.Plugin.Widgets.Promo.Models.PublicInfoModel
+@{
+    var text = ViewData["text"]?.ToString() ?? "";
+
+
+    if (!string.IsNullOrEmpty(text))
+    {
+        <h1>@text</h1>
+    }
+}

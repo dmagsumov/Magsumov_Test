@@ -1,0 +1,17 @@
+﻿@model Nop.Plugin.Widgets.Promo.Models.PublicInfoModel
+@{
+    Layout = "";
+}
+
+<div>
+    <div>
+        @{
+            var dataText = new ViewDataDictionary(ViewData)
+            {
+                {"text", Model.Text}
+            };
+
+            @await Html.PartialAsync("~/Plugins/Widgets.Promo/Views/_PublicInfo.Promo.cshtml", dataText)
+        }
+    </div>
+</div>
