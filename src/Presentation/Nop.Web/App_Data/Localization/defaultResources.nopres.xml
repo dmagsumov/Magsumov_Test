@@ -2868,6 +2868,15 @@
   <LocaleResource Name="Admin.Catalog.Products.Fields.DownloadExpirationDays.Hint">
     <Value>The number of days during customers keeps access to the file (e.g. 14). Leave this field blank to allow continuous downloads.</Value>
   </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author">
+    <Value>Author</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author.Hint">
+    <Value>Author is the text that is displayed in product page.</Value>
+  </LocaleResource>
+  <LocaleResource Name="Admin.Catalog.Products.Fields.Author.Required">
+    <Value>Please provide an author.</Value>
+  </LocaleResource>
   <LocaleResource Name="Admin.Catalog.Products.Fields.FullDescription">
     <Value>Full description</Value>
   </LocaleResource>

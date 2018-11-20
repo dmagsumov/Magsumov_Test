@@ -64,6 +64,11 @@ namespace Nop.Core.Domain.Catalog
         public string AdminComment { get; set; }
 
         /// <summary>
+        /// Gets or sets the author
+        /// </summary>
+        public string Author { get; set; }
+
+        /// <summary>
         /// Gets or sets a value of used product template identifier
         /// </summary>
         public int ProductTemplateId { get; set; }
