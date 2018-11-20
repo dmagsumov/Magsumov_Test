@@ -15,7 +15,7 @@ namespace Nop.Plugin.Widgets.Promo.Components
         private readonly IStoreContext _storeContext;
         private readonly IStaticCacheManager _cacheManager;
         private readonly ISettingService _settingService;
-        private readonly IPictureService _pictureService;
+        
 
         public WidgetsPromoViewComponent(IStoreContext storeContext, 
             IStaticCacheManager cacheManager, 
@@ -25,7 +25,7 @@ namespace Nop.Plugin.Widgets.Promo.Components
             this._storeContext = storeContext;
             this._cacheManager = cacheManager;
             this._settingService = settingService;
-            this._pictureService = pictureService;
+           
         }
 
         public IViewComponentResult Invoke(string widgetZone, object additionalData)
